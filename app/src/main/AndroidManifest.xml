@@ -17,7 +17,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TinkerDemo">
-        <activity android:name="com.example.retrofitandokhttp.tinker.TinkerHotFixActivity">
+        <activity android:name=".tinker.TinkerHotFixActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

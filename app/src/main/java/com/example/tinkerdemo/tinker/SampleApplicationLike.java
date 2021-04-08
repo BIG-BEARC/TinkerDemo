@@ -122,7 +122,6 @@ public class SampleApplicationLike extends DefaultApplicationLike {
 //        Tinker.with(getApplication());
         // TinkerManager.installTinker(this); 替换成下面Bugly提供的方法
         Beta.installTinker(this);
-
     }
     @TargetApi(Build.VERSION_CODES.ICE_CREAM_SANDWICH)
     public void registerActivityLifecycleCallbacks(Application.ActivityLifecycleCallbacks callback) {
